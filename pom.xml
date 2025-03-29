@@ -11,6 +11,7 @@
 	<groupId>com.microservice.architecture.hexagonal</groupId>
 	<artifactId>hexagonal-arch-demo</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<packaging>pom</packaging>
 	<name>hexagonal-arch-demo</name>
 	<description>Demo project for a Spring Boot microservice with a hexagonal architecture,</description>
 	<url/>
@@ -25,6 +26,14 @@
 			<url>https://github.com/leonelmfonseca</url>
 		</developer>
 	</developers>
+	<modules>
+		<module>members-service</module>
+		<module>domain-entities</module>
+		<module>loans-service</module>
+		<module>books-service</module>
+		<module>authors-service</module>
+		<module>genres-service</module>
+	</modules>
 	<properties>
 		<java.version>21</java.version>
 		<datafaker.version>2.4.2</datafaker.version>
